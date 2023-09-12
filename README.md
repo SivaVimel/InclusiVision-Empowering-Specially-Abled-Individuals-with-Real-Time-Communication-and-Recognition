@@ -1,15 +1,15 @@
-**"BlueE: Empowering Specially-Abled Individuals with Real-Time Communication and Recognition"**
+**"InclusiVision: Empowering Specially-Abled Individuals with Real-Time Communication and Recognition"**
 
 ---
 
 **Overview:**
-BlueE is a groundbreaking real-time communication system designed to empower specially-abled individuals through innovative technologies. This open-source project leverages Python, TensorFlow, Haar Cascade Classifier, Convolutional Neural Networks (CNNs), Deep Neural Networks (DNNs), and state-of-the-art recognition models to enhance the daily lives of partially blind, deaf, and mute users.
+InclusiVision is a groundbreaking real-time communication system designed to empower specially-abled individuals through innovative technologies. This open-source project leverages Python, TensorFlow, Haar Cascade Classifier, Convolutional Neural Networks (CNNs), Deep Neural Networks (DNNs), and state-of-the-art recognition models to enhance the daily lives of partially blind, deaf, and mute users.
 
 ---
 
 **Key Features:**
 
-- **Object Detection:** BlueE employs Haar Cascade Classifier to detect objects, including animals, brands, cars, faces, flowers, gods, guns, vehicle number plates, switches, restroom signs, traffic signs, and pedestrian crossings.
+- **Object Detection:** InclusiVision employs Haar Cascade Classifier to detect objects, including animals, brands, cars, faces, flowers, gods, guns, vehicle number plates, switches, restroom signs, traffic signs, and pedestrian crossings.
 
 - **American Sign Language Recognition:** A vital tool for the deaf community, InclusiVision accurately recognizes American Sign Language gestures, enabling seamless communication.
 
@@ -17,7 +17,7 @@ BlueE is a groundbreaking real-time communication system designed to empower spe
 
 - **Text to Speech Conversion:** Users can convert written text into natural-sounding speech, facilitating communication and information access.
 
-- **Text Recognition:** Utilizing pytesseract, BlueE extracts text from images, making printed information accessible.
+- **Text Recognition:** Utilizing pytesseract, InclusiVision extracts text from images, making printed information accessible.
 
 ---
 
@@ -34,7 +34,7 @@ BlueE is a groundbreaking real-time communication system designed to empower spe
 ---
 
 **Publication:**
-BlueE has been recognized in the academic community and published in the International Journal of Research in Technology and Innovation (IJRTI). You can access the paper at [IJRTI2305094.pdf](https://www.ijrti.org/papers/IJRTI2305094.pdf).
+InclusiVision has been recognized in the academic community and published in the International Journal of Research in Technology and Innovation (IJRTI). You can access the paper at [IJRTI2305094.pdf](https://www.ijrti.org/papers/IJRTI2305094.pdf).
 
 ---
 
@@ -48,4 +48,4 @@ For inquiries or assistance, please reach out to our team at sivavimelrajhen@gma
 
 ---
 
-*BlueE - Bridging the Gap in Communication and Accessibility.*
+*InclusiVision - Bridging the Gap in Communication and Accessibility.*
