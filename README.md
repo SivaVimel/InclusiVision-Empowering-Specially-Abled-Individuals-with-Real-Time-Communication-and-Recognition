@@ -1,4 +1,4 @@
-**"InclusiVision: Empowering Specially-Abled Individuals with Real-Time Communication and Recognition"**
+# **"InclusiVision: Empowering Specially-Abled Individuals with Real-Time Communication and Recognition"**
 
 ---
 
