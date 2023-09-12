@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {   
+            background-image: url('static/imghome.png');
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            font-family:'Montserrat', sans-serif;
+        }
+        h2 {
+            text-shadow: -1px -1px #e63259, 1px 1px #d30733, -3px 0 4px #000;
+            font-family:"Segoe print", Arial, Helvetica, sans-serif;
+            color:#e21a45;
+            font-weight:lighter;
+            -moz-box-shadow: 2px 2px 6px #888;  
+            -webkit-box-shadow: 2px 2px 6px #888;  
+            box-shadow:2px 2px 6px #888;  
+            text-align:center;
+            display:flex;
+            background-color:rgba(0, 0, 0, 0.685);
+        }
+        h4 {
+            font-family:"Segoe print", Arial, Helvetica, sans-serif;
+            color:aqua;
+            font-weight:lighter;
+            -moz-box-shadow: 2px 2px 6px aqua;  
+            -webkit-box-shadow: 2px 2px 6px aqua;  
+            box-shadow:2px 2px 6px #888;  
+            text-align:center;
+            display:flex;
+            background-color:rgba(0, 0, 0, 0.685);
+        }
+        img {
+            border: 2px solid #e21a45;
+          }
+          .glow-on-hover {
+            width: 220px;
+            height: 50px;
+            border: none;
+            outline: none;
+            color: #e63259;
+            background: #111111c2;
+            cursor: pointer;
+            position: relative;
+            z-index: 0;
+            border-radius: 10px;
+        }
+        
+        .glow-on-hover:before {
+            content: '';
+            background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            background-size: 400%;
+            z-index: -1;
+            filter: blur(5px);
+            width: calc(100% + 4px);
+            height: calc(100% + 4px);
+            animation: glowing 20s linear infinite;
+            opacity: 0;
+            transition: opacity .3s ease-in-out;
+            border-radius: 10px;
+        }
+        
+        .glow-on-hover:active {
+            color: #000
+        }
+        
+        .glow-on-hover:active:after {
+            background: transparent;
+        }
+        
+        .glow-on-hover:hover:before {
+            opacity: 1;
+        }
+        
+        .glow-on-hover:after {
+            z-index: -1;
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #111111c2;
+            left: 0;
+            top: 0;
+            border-radius: 10px;
+        }
+        
+        @keyframes glowing {
+            0% {
+                background-position: 0 0;
+            }
+            50% {
+                background-position: 400% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <h2 class="mt-5">Real-Time Communication System Using AI</h2>
+                <img src="{{url_for('video_feed')}}" alt="Powered By Scriptiez" width="100%">
+            </div>
+            <p align="center"><a href=asl ><button class="glow-on-hover">American Sign Language</button></a></p>
+            <h4 class="mt-5">Ask "What are the commands" <br>or <br><br>Commands : "Recognise Face" - Face Detection, Facial Emotion Deep Recognition / "Staring" - Detects Number  of People Facing You / "People" - Detects People, Pedestrian / "Text" - Text Recognition / "Weapon" - Weapon Detection / "Vehicle" - Vehicle Detection / "Colour" - Detects Colour / "Brand" - Detects the Brands / "Flower" - Detect the type of flower / "Sign" - Detects the road signs / "Zebra Cross" - Detects the near by pedestrian cross / "Animal"- Detects the animal type / "Switch" - Detects the near by Switch Board / "Toilet" - Detects the restroom sign</h4>
+        </div>
+    </div>
+</body>
+</html>
